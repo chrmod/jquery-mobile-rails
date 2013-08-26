@@ -1,15 +1,13 @@
-$:.push File.expand_path("../lib", __FILE__)
-
-# Maintain your gem's version:
-require "jquery_mobile_rails/version"
+# -*- encoding: utf-8 -*-
+require File.expand_path('../lib/jquery-mobile-rails/version', __FILE__)
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "jquery_mobile_rails"
+  s.name        = "jquery-mobile-rails"
   s.version     = JqueryMobileRails::VERSION
   s.authors     = ["Tiago Scolari", "Dylan Markow","Krzysztof Modras"]
   s.email       = ["tscolari@gmail.com", "dylan@dylanmarkow.com", "krzysztof.modras@gmail.com"]
-  s.homepage    = "https://github.com/tscolari/jquery-mobile-rails"
+  s.homepage    = "https://github.com/chrmod/jquery-mobile-rails"
   s.summary     = "JQuery Mobile files for Rails 4.0"
   s.description = "JQuery Mobile files for Rails 4.0 assets pipeline"
   s.license     = 'MIT'
