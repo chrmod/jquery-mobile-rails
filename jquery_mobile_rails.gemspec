@@ -7,17 +7,17 @@ require "jquery_mobile_rails/version"
 Gem::Specification.new do |s|
   s.name        = "jquery_mobile_rails"
   s.version     = JqueryMobileRails::VERSION
-  s.authors     = ["Tiago Scolari", "Dylan Markow"]
-  s.email       = ["tscolari@gmail.com", "dylan@dylanmarkow.com"]
+  s.authors     = ["Tiago Scolari", "Dylan Markow","Krzysztof Modras"]
+  s.email       = ["tscolari@gmail.com", "dylan@dylanmarkow.com", "krzysztof.modras@gmail.com"]
   s.homepage    = "https://github.com/tscolari/jquery-mobile-rails"
-  s.summary     = "JQuery Mobile files for Rails 3.1."
-  s.description = "JQuery Mobile files for Rails 3.1 assets pipeline"
+  s.summary     = "JQuery Mobile files for Rails 4.0"
+  s.description = "JQuery Mobile files for Rails 4.0 assets pipeline"
   s.license     = 'MIT'
 
-  s.files = Dir["{app,config,db,lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "railties", ">= 3.1.0"
+  s.add_dependency "railties", ">= 3.2", "< 5.0"
 
   s.add_development_dependency "sqlite3"
   s.require_path = 'lib'
