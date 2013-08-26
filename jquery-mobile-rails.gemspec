@@ -4,7 +4,7 @@ require File.expand_path('../lib/jquery-mobile-rails/version', __FILE__)
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "jquery-mobile-rails"
-  s.version     = JqueryMobileRails::VERSION
+  s.version     = JqueryMobileRails::Rails::VERSION
   s.authors     = ["Tiago Scolari", "Dylan Markow","Krzysztof Modras"]
   s.email       = ["tscolari@gmail.com", "dylan@dylanmarkow.com", "krzysztof.modras@gmail.com"]
   s.homepage    = "https://github.com/chrmod/jquery-mobile-rails"
